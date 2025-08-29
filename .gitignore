@@ -1,0 +1,25 @@
+﻿# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Data & outputs (keep large files out of git)
+data/
+runs/
+*.parquet
+*.jsonl
+*.csv
+*.tsv
+*.jpg
+*.png
+*.gif
+*.mp4
+*.webp
+
+# Notebooks cache
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
